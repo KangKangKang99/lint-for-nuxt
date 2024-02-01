@@ -101,7 +101,7 @@ if [ "$IS_SETUP_HUSKY" = "y" ]; then
 
     echo "module.exports = {
       extends: ['@commitlint/config-conventional'],
-    };" >| .commitlintrc.js
+    };" >| .commitlintrc.cjs
 
     echo '#!/usr/bin/env sh
     . "$(dirname -- "$0")/_/husky.sh"
