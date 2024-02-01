@@ -37,8 +37,7 @@ $ bash run.sh
   "lint-staged": {
     "*.{js,ts,vue}": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "scripts": {
